@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+ /*google font*/
+h1,h2,h3{
+    font-family: 'Pacifico', cursive;
+}
