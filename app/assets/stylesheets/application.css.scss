@@ -17,7 +17,8 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
-
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
  /*google font*/
 
@@ -25,6 +26,7 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+//UI gradient background color
 .navbar, .home_page{
     
     background: #3E5151;  /* fallback for old browsers */
@@ -41,11 +43,11 @@ h1, h2, h3 {
 }
 
 
-
+//text color of navbar
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
     color: white;
 }
-
+//hover color for the navbar texts
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover{
     color:white;
     opacity:0.75;
